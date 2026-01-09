@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-01-09T00:00:00Z",
+
+  "defaults": {
+    "default_status": "blocked",
+    "default_check_interval": { "days": 7 },
+    "default_cache_ttl": { "hours": 12 },
+    "grace": { "days": 7 }
+  },
+
+  "messages": {
+    "ok": "Licencia verificada correctamente.",
+    "invalid_key": "Clave inválida. Verifica que la hayas escrito correctamente.",
+    "site_not_allowed": "Clave correcta, pero este sitio no está autorizado para usar el plugin.",
+    "blocked": "Esta licencia ha sido bloqueada.",
+    "expired": "Esta licencia ha expirado.",
+    "fetch_error": "No se pudo verificar la licencia en este momento. Inténtalo más tarde.",
+    "generic_error": "No se pudo validar. Revisa los datos e inténtalo nuevamente."
+  },
+
+  "generic_keys": [
+    {
+      "key": "BETA-GENERICA-2026",
+      "status": "active",
+      "expires_at": "2026-02-28",
+      "allow_any_domain": true,
+
+      "check_interval": { "days": 2 },
+      "cache_ttl": { "hours": 6 },
+
+      "note": "Acceso temporal: aún no he tenido tiempo de agregarte al listado. Por ahora tienes acceso temporal (se renueva cada 2 días). Si quieres acceso completo, contáctame en Joseabdiel.com."
+    }
+  ],
+
+  "licenses": [
+    {
+      "key": "BETA-ABDIEL-LOCAL-JOSE",
+      "status": "active",
+      "expires_at": "2026-06-30",
+      "allow_any_domain": false,
+      "domains": [
+        "abdieldesigner.local",
+        "joseabdiel.com",
+        "www.joseabdiel.com"
+      ],
+
+      "check_interval": { "days": 7 },
+      "cache_ttl": { "hours": 12 },
+
+      "note": "Clave para pruebas en local y joseabdiel.com."
+    },
+    {
+      "key": "TEMPORAL-ABDIEL-COM",
+      "status": "active",
+      "expires_at": "2026-02-15",
+      "allow_any_domain": false,
+      "domains": [
+        "abdiel.com",
+        "www.abdiel.com"
+      ],
+
+      "check_interval": { "days": 7 },
+      "cache_ttl": { "hours": 12 },
+
+      "note": "Usuario temporal (para pruebas)."
+    }
+  ]
+}
