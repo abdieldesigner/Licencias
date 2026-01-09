@@ -21,7 +21,7 @@
 
   "generic_keys": [
     {
-      "key": "BETA-GENERICA-2026",
+      "key": "abrete-sesamo",
       "status": "active",
       "expires_at": "2026-02-28",
       "allow_any_domain": true,
@@ -35,7 +35,7 @@
 
   "licenses": [
     {
-      "key": "BETA-ABDIEL-LOCAL-JOSE",
+      "key": "BETA-ABDIEL",
       "status": "active",
       "expires_at": "2026-06-30",
       "allow_any_domain": false,
