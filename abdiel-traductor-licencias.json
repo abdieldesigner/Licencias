@@ -26,6 +26,11 @@
       "expires_at": "2026-02-28",
       "allow_any_domain": true,
 
+      "blocked_domains": [
+        "xxx.com",
+        "xxx2.com"
+      ],
+
       "check_interval": { "days": 2 },
       "cache_ttl": { "hours": 6 },
 
